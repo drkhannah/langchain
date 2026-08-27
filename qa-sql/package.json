@@ -1,0 +1,30 @@
+{
+  "name": "qa-sql",
+  "version": "1.0.0",
+  "description": "Question/Answering system over SQL data",
+  "main": "index.ts",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.0",
+    "@langchain/core": "^0.3.0",
+    "@langchain/langgraph": "^0.3.0",
+    "@langchain/openai": "^0.3.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.0",
+    "langsmith": "^0.3.74",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.27"
+  }
+}
