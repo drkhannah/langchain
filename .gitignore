@@ -1,0 +1,16 @@
+# Environment files
+.env
+**/.env
+.env.*
+**/.env.*
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Local IDE config
+.idea/
+
+# Dependencies
+**/node_modules/
+
